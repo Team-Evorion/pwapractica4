@@ -1,0 +1,86 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #eef2f5;
+    margin: 0;
+    color: #333;
+}
+
+.navbar {
+    background: #004080;
+    padding: 15px 30px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.cv-container {
+    max-width: 900px;
+    margin: 30px auto;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    overflow: hidden;
+}
+
+.cv-header {
+    background: #002b5b;
+    color: white;
+    padding: 40px 30px;
+    text-align: center;
+}
+
+.cv-header h1 { margin: 0; font-size: 2.2rem; }
+.subtitle { color: #80c4ff; margin-top: 8px; }
+
+.cv-grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.sidebar {
+    background: #f8f9fa;
+    padding: 30px 20px;
+    border-right: 1px solid #e9ecef;
+}
+
+.main-body {
+    padding: 30px;
+}
+
+.cv-section {
+    margin-bottom: 25px;
+}
+
+.cv-section h2 {
+    color: #004080;
+    font-size: 1.3rem;
+    border-bottom: 2px solid #004080;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar li {
+    margin-bottom: 10px;
+    font-size: 0.95rem;
+}
+
+.item {
+    margin-bottom: 20px;
+}
+
+.item h3 { margin: 0; font-size: 1.1rem; color: #222; }
+.institution { margin: 2px 0; color: #666; font-weight: bold; }
+.date { font-size: 0.85rem; color: #007bff; display: block; margin-bottom: 8px; }
+
+@media (max-width: 768px) {
+    .cv-grid { grid-template-columns: 1fr; }
+    .sidebar { border-right: none; border-bottom: 1px solid #e9ecef; }
+}

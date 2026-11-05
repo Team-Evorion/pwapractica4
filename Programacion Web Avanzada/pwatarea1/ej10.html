@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 10 - Biografía Completa</title>
+    <style>
+        :root {
+            --primary: #002b5b;
+            --secondary: #004080;
+            --light: #f4f6f9;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            background-color: var(--light);
+            color: #333;
+        }
+        header {
+            background-color: var(--primary);
+            color: white;
+            padding: 30px 20px;
+            text-align: center;
+        }
+        .layout-container {
+            display: flex;
+            max-width: 1100px;
+            margin: 20px auto;
+            gap: 20px;
+            padding: 0 15px;
+        }
+        main {
+            flex: 3;
+            background: white;
+            padding: 25px;
+            border-radius: 8px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+        }
+        aside {
+            flex: 1;
+            background: #e9ecef;
+            padding: 20px;
+            border-radius: 8px;
+        }
+        footer {
+            background-color: #111;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 30px;
+        }
+        h2 { color: var(--secondary); border-bottom: 2px solid var(--secondary); padding-bottom: 5px; }
+        .back-link { display: inline-block; margin-top: 15px; color: #0066cc; text-decoration: none; font-weight: bold; }
+
+        @media (max-width: 768px) {
+            .layout-container { flex-direction: column; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Encabezado -->
+    <header>
+        <h1>Biografía Oficial - Jesús Fernández</h1>
+        <p>Estudiante de Ingeniería en Sistemas Inteligentes | Universidad Bolivariana del Ecuador</p>
+    </header>
+
+    <!-- Estructura Principal -->
+    <div class="layout-container">
+        <!-- Contenido Principal -->
+        <main>
+            <section>
+                <h2>Perfil Académico y Profesional</h2>
+                <p>Actualmente me encuentro cursando el tercer semestre de la carrera de Ingeniería en Sistemas Inteligentes. Me apasiona el desarrollo de software, la lógica de programación y el diseño de soluciones tecnológicas enfocadas a la automatización.</p>
+                <p>Adicionalmente, ejerzo el liderazgo en la Rama Estudiantil IEEE de la universidad y me desempeño laboralmente como asistente en el área de almacén y soporte.</p>
+            </section>
+
+            <section>
+                <h2>Habilidades y Competencias</h2>
+                <ul>
+                    <li>Maquetación y Desarrollo Web (HTML5, CSS3, JavaScript)</li>
+                    <li>Programación en Python, C++ y Java</li>
+                    <li>Bases de Datos Relacionales y NoSQL</li>
+                </ul>
+            </section>
+        </main>
+
+        <!-- Barra Lateral -->
+        <aside>
+            <h3>Datos Rápidos</h3>
+            <p><strong>Nacimiento:</strong> 02/02/2006</p>
+            <p><strong>Ubicación:</strong> Ecuador</p>
+            <p><strong>Universidad:</strong> UBE</p>
+            <hr>
+            <h3>Enlaces</h3>
+            <a href="index.html" class="back-link">&larr; Menú Principal</a>
+        </aside>
+    </div>
+
+    <!-- Pie de Página -->
+    <footer>
+        <p>&copy; 2026 Jesús Fernández - Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>

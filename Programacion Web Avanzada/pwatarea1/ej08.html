@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 8 - Diseño Responsivo con Media Queries</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f4f6f9;
+        }
+        /* Navegación responsiva */
+        .navbar {
+            background-color: #003366;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            padding: 10px;
+        }
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            padding: 12px 20px;
+            font-weight: bold;
+            text-align: center;
+        }
+        .navbar a:active { color: #ffcc00; }
+
+        .main-container {
+            padding: 20px;
+            max-width: 900px;
+            margin: 20px auto;
+            background: white;
+            border-radius: 8px;
+        }
+
+        /* MEDIA QUERIES PARA DISPOSITIVOS MÓVILES */
+        @media (max-width: 600px) {
+            .navbar {
+                flex-direction: column;
+            }
+            .navbar a {
+                border-bottom: 1px solid rgba(255,255,255,0.1);
+                padding: 10px;
+            }
+            .main-container {
+                margin: 10px;
+                padding: 15px;
+            }
+            h1 { font-size: 1.5rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar">
+        <a href="ej05.html">Biografía</a>
+        <a href="https://github.com" target="_blank">GitHub</a>
+        <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+    </nav>
+
+    <div class="main-container">
+        <h1>Vista Responsiva (Media Queries)</h1>
+        <p>Prueba a redimensionar la ventana de tu navegador o abrir esta página en un teléfono móvil. La barra de navegación pasará de ser un menú horizontal a apilarse verticalmente para una experiencia fluida.</p>
+        <br>
+        <a href="index.html" style="color: #0066cc; text-decoration: none;">&larr; Volver al Menú Principal</a>
+    </div>
+
+</body>
+</html>

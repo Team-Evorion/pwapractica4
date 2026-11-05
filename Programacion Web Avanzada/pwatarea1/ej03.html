@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 3 - Tablas HTML</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f6f9;
+            padding: 40px 20px;
+            text-align: center;
+        }
+        table {
+            width: 80%;
+            max-width: 600px;
+            margin: 20px auto;
+            border-collapse: collapse;
+            background: white;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+        th {
+            background-color: #003366;
+            color: white;
+        }
+        tr:nth-child(even) { background-color: #f8f9fa; }
+        a { color: #0066cc; text-decoration: none; }
+    </style>
+</head>
+<body>
+    <h2>Lista de Países y Capitales</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>N°</th>
+                <th>País</th>
+                <th>Capital</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Ecuador</td>
+                <td>Quito</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Perú</td>
+                <td>Lima</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Colombia</td>
+                <td>Bogotá</td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <a href="index.html">&larr; Volver al Menú Principal</a>
+</body>
+</html>

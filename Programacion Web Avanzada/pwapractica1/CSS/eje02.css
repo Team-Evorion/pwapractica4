@@ -1,0 +1,103 @@
+:root {
+    --primary-color: #003366;
+    --accent-color: #0066cc;
+    --bg-light: #f9fbfd;
+    --text-dark: #222;
+}
+
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    margin: 0;
+    line-height: 1.6;
+    color: var(--text-dark);
+}
+
+.header {
+    background: var(--primary-color);
+    color: white;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.logo { font-size: 1.4rem; font-weight: bold; }
+.logo span { color: #3399ff; }
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+    font-size: 0.9rem;
+}
+
+.nav .link-repo { color: #ffcc00; font-weight: bold; }
+
+.hero-section {
+    background: linear-gradient(rgba(0,51,102,0.8), rgba(0,51,102,0.8)), url('https://via.placeholder.com/1200x400');
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.btn-primary {
+    background: var(--accent-color);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.container { max-width: 1100px; margin: 0 auto; padding: 20px; }
+.section { padding: 50px 0; }
+.bg-light { background-color: var(--bg-light); padding: 50px 20px; border-radius: 8px; }
+.title { text-align: center; color: var(--primary-color); margin-bottom: 30px; }
+
+/* Grillas Responsivas */
+.cards-grid, .portfolio-grid, .pricing-grid, .testimonials-grid, .news-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+}
+
+.card-box, .portfolio-item, .price-card, .news-card {
+    background: white;
+    padding: 20px;
+    border-radius: 6px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    border: 1px solid #eee;
+}
+
+.price-card.featured { border: 2px solid var(--accent-color); }
+
+/* Formulario */
+.contact-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+.form-group { margin-bottom: 15px; }
+.form-group label { display: block; margin-bottom: 5px; }
+.form-group input, .form-group textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+footer { background: #111; color: white; text-align: center; padding: 20px; }
+
+@media (max-width: 768px) {
+    .header { flex-direction: column; text-align: center; }
+    .nav { margin-top: 10px; display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; }
+    .contact-grid { grid-template-columns: 1fr; }
+}
