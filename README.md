@@ -82,8 +82,8 @@ pwapractica4/
 ├── nosotros.php             # Información sobre UBE Store
 ├── equipo.php               # Integrantes del proyecto
 ├── conexion.php             # Conexión PDO con MySQL
-├── script.js                # Interacciones del frontend
-├── style.css                # Estilos generales y responsive
+├── js/script.js                # Interacciones del frontend
+├── css/style.css                # Estilos generales y responsive
 └── README.md                # Documentación del proyecto
 ```
 
