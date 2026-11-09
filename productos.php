@@ -108,7 +108,7 @@ $productos_mostrados = array_values(array_filter(
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Catálogo completo de productos tecnológicos de UBE Store.">
     <title>Productos | UBE Store</title>
-    <link rel="stylesheet" href="css/style.css?v=15">
+    <link rel="stylesheet" href="css/style.css?v=16">
 </head>
 <body>
     <header class="site-header compact-header">

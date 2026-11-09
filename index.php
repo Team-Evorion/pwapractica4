@@ -77,7 +77,7 @@ $productos_destacados = array_slice($productos, 0, 3);
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="UBE Store, tienda académica de productos tecnológicos.">
     <title>UBE Store | Tecnología para cada día</title>
-    <link rel="stylesheet" href="css/style.css?v=15">
+    <link rel="stylesheet" href="css/style.css?v=16">
 </head>
 <body>
     <header class="site-header">
@@ -124,9 +124,12 @@ $productos_destacados = array_slice($productos, 0, 3);
                     <a class="hero-link hero-link-secondary" href="nosotros.php">Sobre nosotros <span aria-hidden="true">→</span></a>
                 </div>
                 <div class="hero-points" aria-label="Beneficios de la tienda">
-                    <span>✓ Compra protegida</span>
+                    <span>✓ Proyecto académico</span>
                     <span>✓ Catálogo actualizado</span>
                     <span>✓ Diseño responsive</span>
+                </div>
+                <div class="hero-disclaimer" role="note">
+                    Demostración educativa: no procesa pagos reales ni solicita datos bancarios.
                 </div>
             </div>
 

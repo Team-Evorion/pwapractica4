@@ -89,7 +89,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     <title>Registro de usuario | UBE Store</title>
 
-    <link rel="stylesheet" href="css/style.css?v=15">
+    <link rel="stylesheet" href="css/style.css?v=16">
 </head>
 <body class="auth-page">
 
@@ -102,7 +102,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             <h1>Registro de usuario</h1>
 
             <p class="auth-description">
-                Regístrate para acceder al catálogo y realizar compras.
+                Crea una cuenta de demostración académica. No se procesan pagos reales ni se solicitan datos bancarios.
             </p>
 
             <?php if ($mensaje_error !== ''): ?>

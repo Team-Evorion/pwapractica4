@@ -79,7 +79,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     <title>Iniciar sesión | UBE Store</title>
 
-    <link rel="stylesheet" href="css/style.css?v=15">
+    <link rel="stylesheet" href="css/style.css?v=16">
 </head>
 <body class="auth-page">
 
@@ -92,7 +92,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             <h1>Iniciar sesión</h1>
 
             <p class="auth-description">
-                Ingresa con tu cuenta para realizar compras.
+                Acceso de demostración académica. No se procesan pagos reales ni se solicitan datos bancarios.
             </p>
 
             <?php if ($mensaje_exito !== ''): ?>

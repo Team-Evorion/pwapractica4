@@ -91,6 +91,12 @@ button { cursor: pointer; }
 .hero-link-primary:hover { background: #e2d2f1; }
 .hero-link-secondary { border-color: transparent; }
 .hero-points { display: flex; flex-wrap: wrap; gap: 9px 18px; margin-top: 27px; color: #d9cde6; font-size: .7rem; }
+.hero-disclaimer {
+    display: inline-flex; margin-top: 16px; padding: 8px 12px;
+    border: 1px solid rgba(255,255,255,.2); border-radius: 12px;
+    background: rgba(255,255,255,.07); color: #e8deef;
+    font-size: .72rem; line-height: 1.45;
+}
 .featured-showcase {
     position: relative; padding: 18px; border: 1px solid rgba(255,255,255,.2); border-radius: 26px;
     background: rgba(255,255,255,.09); box-shadow: 0 25px 70px rgba(20,10,35,.25);

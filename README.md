@@ -11,9 +11,7 @@ El proyecto integra frontend, backend y base de datos, con énfasis en la organi
 ## 🌐 Enlaces del proyecto
 
 - **Repositorio:** [GitHub — Team-Evorion/pwapractica4](https://github.com/Team-Evorion/pwapractica4)
-- **Sitio web:** `PENDIENTE DE PUBLICACIÓN — agregar aquí la URL del hosting`
-
-> Cuando el proyecto sea publicado, reemplazar el texto pendiente por el enlace público solicitado para la entrega.
+- **Sitio web:** [https://ubestoreube.infinityfreeapp.com/](https://ubestoreube.infinityfreeapp.com/)
 
 ---
 
