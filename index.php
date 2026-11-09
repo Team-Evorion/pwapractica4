@@ -77,7 +77,7 @@ $productos_destacados = array_slice($productos, 0, 3);
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="UBE Store, tienda académica de productos tecnológicos.">
     <title>UBE Store | Tecnología para cada día</title>
-    <link rel="stylesheet" href="style.css?v=15">
+    <link rel="stylesheet" href="css/style.css?v=15">
 </head>
 <body>
     <header class="site-header">
@@ -296,6 +296,6 @@ $productos_destacados = array_slice($productos, 0, 3);
         </div>
     </footer>
 
-    <script src="script.js?v=5"></script>
+    <script src="js/script.js?v=5"></script>
 </body>
 </html>

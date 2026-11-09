@@ -89,7 +89,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     <title>Registro de usuario | UBE Store</title>
 
-    <link rel="stylesheet" href="style.css?v=15">
+    <link rel="stylesheet" href="css/style.css?v=15">
 </head>
 <body class="auth-page">
 

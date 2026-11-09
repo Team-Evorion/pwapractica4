@@ -14,7 +14,7 @@ $cantidad_carrito = array_sum(array_map('intval', $carrito));
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Integrantes de la Clase Práctica 4 de Programación Web Avanzada.">
     <title>Equipo | UBE Store</title>
-    <link rel="stylesheet" href="style.css?v=15">
+    <link rel="stylesheet" href="css/style.css?v=15">
 </head>
 <body class="team-page">
     <header class="site-header compact-header">
@@ -77,6 +77,6 @@ $cantidad_carrito = array_sum(array_map('intval', $carrito));
     <footer class="site-footer simple-store-footer">
         <div class="footer-bottom container"><span>© 2026 UBE Store · Clase Práctica 4.</span></div>
     </footer>
-    <script src="script.js?v=5"></script>
+    <script src="js/script.js?v=5"></script>
 </body>
 </html>

@@ -176,7 +176,7 @@ $total = array_sum(array_column($productos, 'subtotal'));
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Carrito de compras de UBE Store.">
     <title>Carrito de compras | UBE Store</title>
-    <link rel="stylesheet" href="style.css?v=15">
+    <link rel="stylesheet" href="css/style.css?v=15">
 </head>
 <body>
     <header class="site-header cart-header">
@@ -317,6 +317,6 @@ $total = array_sum(array_column($productos, 'subtotal'));
             <span>Proyecto académico · Programación Web</span>
         </div>
     </footer>
-    <script src="script.js?v=5"></script>
+    <script src="js/script.js?v=5"></script>
 </body>
 </html>
